@@ -18,7 +18,7 @@ zip -r webshoporders.zip .
 wait
 cd /oracle-cloud-psm-cli/webshop-orders-soaring-through-the-cloud-native-sequel/jet-on-node
 wait
-psm accs push -n SoaringWebshopOrders -r node -s hourly -d deployment.json -p webshoporers.zip
+psm accs push -n SoaringWebshopOrders -r node -s hourly -d deployment.json -p webshoporders.zip
 
 
 
