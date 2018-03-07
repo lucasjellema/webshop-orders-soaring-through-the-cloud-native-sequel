@@ -65,7 +65,7 @@
             <oj-navigation-list data="[[navDataSource]]"
                                 data-bind="css: smScreen() ? '' : 'oj-md-condense oj-md-justify-content-flex-end'"
                                 display="[[smScreen() ? 'icons' : 'all']]"
-                                edge="top"
+                                edge="start"
                                 item.renderer="[[oj.KnockoutTemplateUtils.getRenderer('navTemplate', true)]]"
                                 selection="{{router.stateId}}">
             </oj-navigation-list>
